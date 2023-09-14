@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            font-family: cursive;
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+        }
+        section{
+            background-color: coral;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            padding: 20px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <button onclick="ad()">Adição</button>
+    <button onclick="sub()">Subtração</button>
+    <button onclick="mult()">Multiplicação</button>
+    <button onclick="div()">Divisão</button>
+    
+    <section id="resultado">
+        <p>O resultado irá aparecer aqui</p>
+    </section>
+<script src="cal.js"></script>
+</body>
+</html>
